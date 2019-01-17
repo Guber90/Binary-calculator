@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<title>Binary calculator</title>
+	<link rel="stylesheet" href="mainstyle.css">
+    </head>
+    <body>
+	<div id="container">
+	    <div id="inputFromUser">
+		<input id="number1Input" class="inputClass" placeholder="Tast inn første tall">
+		<input id="number2Input" class="inputClass" placeholder="Tast inn andre tall">
+		<button class="button" id="calculateSum">Regne ut summen</button>
+	    </div>
+	    <div id="dataToCalculate">
+		<div id="line2"><p id="mente">Mente:</p> </div>
+		<div id="line1"><p id="resultP">Resultat:</p> </div>
+	    </div>
+	    <div id="numbers">
+		<div id="number1"></div>
+		<div id="number2"></div>
+		<div id="result"></div>
+		<div id="memorisedValues"></div>
+	    </div>
+	    <div id="mask"></div>
+	    <button class="button" id="reset">Ny beregning</button>
+	    <div id="description">
+		<p id="welcome">Velkommen til binary addisjon kalkulator</p>
+		Har kan man se stegvis utregning av to binære tall addisjon.
+		Mer om binary addisjon regler kan man lese på
+		<a href="http://web.math.princeton.edu/math_alive/Crypto/Lab1/BinAdd.html">Princeton</a>
+		</ul>
+	    </div>
+	</div>
+    </body>
+    <script src="index.js"></script>
+</html>
